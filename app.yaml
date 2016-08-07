@@ -1,0 +1,5 @@
+runtime: python
+vm: true
+
+runtime_config:
+  python_version: 2
