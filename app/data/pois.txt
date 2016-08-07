@@ -1,0 +1,990 @@
+276	CROWN FRIED CHICKEN AND PIZZA	Bushwick	food
+162	La Bagel Delight	Park Slope	food
+259	The Long Island Bar	Cobble Hill	food
+274	Rosario Pizza	Bushwick	food
+161	Dr. John N. Nguyen, MD	Park Slope	food
+260	Macy's	Downtown Brooklyn	food
+164	Lincoln Station	Crown Heights	food
+200	McDonald's	Bedford-Stuyvesant	store
+213	Kittery	Carroll Gardens	food
+291	Sukkah4u	Clinton Hill	food
+187	Dykes Lumber Co	Gowanus	food
+209	Unified Court System Ny	Red Hook	food
+266	Brooklyn Doula -- Megan Davidson, PhD	Bedford-Stuyvesant	food
+237	Deity	Boerum Hill	food
+188	La Bagel Delight	Park Slope	food
+293	Chestnut Grocery	Bedford-Stuyvesant	food
+172	Empower Charter School	Crown Heights	food
+176	Eastern Steel Corporation	East New York	food
+180	Lancer Service Station	Jamaica	food
+224	Interfaith Medical Center	Bedford-Stuyvesant	food
+166	Madhi Food - Vegetarian Catering - By Appt	Crown Heights	food
+288	Citi Bike	Fort Greene	store
+297	Mega Aid Pharmacy	Bushwick	food
+157	City Supply Inc	Gowanus	store
+284	City Supply Inc	Gowanus	transit_station
+226	Associated Supermarket	Bedford-Stuyvesant	food
+223	Interfaith Medical Center	Bedford-Stuyvesant	food
+254	Khans Auto Repair	Ozone Park	store
+233	Villa Fresh Italian Kitchen	None	food
+205	Dr. Shu-Chung S. Cheng, MD	East New York	store
+216	Pacific Standard	Boerum Hill	food
+191	Shane's Brooklyn	Prospect Heights	food
+177	Dr. Julio A. Tardio, MD	East New York	health
+152	allbargainstoressite.com	Jamaica	lodging
+250	Toad Style	Bedford-Stuyvesant	food
+231	Doctor Charles R Drew Memorial Park	Jamaica	store
+185	Dykes Lumber Co	Gowanus	food
+174	Dunkin' Donuts	Brownsville	food
+198	Empower Charter School	Crown Heights	food
+230	Bushwick Av - Aberdeen St	Bushwick	store
+246	Royal Rib House	Bedford-Stuyvesant	food
+251	Kalina Bar & Grill	Bedford-Stuyvesant	food
+257	The Grove	None	food
+285	Hanco's Bubble Tea & Vietnamese Sandwich	Brooklyn Heights	food
+281	Jamaica Plumbing & Heating Supply	Jamaica	food
+219	Habonim Dror North America	Crown Heights	food
+294	China City	Bedford-Stuyvesant	store
+173	Boots Auto Repair Inc	Brownsville	food
+268	company A.R.W	Bedford-Stuyvesant	food
+210	Lucali	Carroll Gardens	food
+215	Pacific Standard	Boerum Hill	food
+218	Chuko Ramen	Prospect Heights	food
+252	C-Town Supermarkets	Bushwick	food
+212	P.S. 58 The Carroll School	Carroll Gardens	food
+158	Rico	Gowanus	food
+235	Soula Shoes	Boerum Hill	food
+202	Atlantic Plaza Towers	Brownsville	food
+159	Dykes Lumber Co	Gowanus	food
+249	Toad Style	Bedford-Stuyvesant	food
+207	Mary Kay Independent Beauty Consultant E GOWINS	East New York	store
+171	Empower Charter School	Crown Heights	food
+275	Kalina Bar & Grill	Bedford-Stuyvesant	food
+160	Daisey's Diner	Park Slope	food
+228	J's Jerk Hut	Bedford-Stuyvesant	food
+181	Jaz Events	Red Hook	food
+206	Mary Kay Independent Beauty Consultant E GOWINS	East New York	food
+179	Ada Mini Deli & Grocery Corporation	Jamaica	store
+153	Dry As A Bone Inc	Jamaica	food
+154	牙买加酒店	Jamaica	food
+243	Family Dollar	Bedford-Stuyvesant	food
+204	Advance Auto Parts	Cypress Hills	food
+168	Everything But The Baby	Crown Heights	food
+201	Atlantic Plaza Towers	Brownsville	store
+296	Mr. Parador Restaurant	Bedford-Stuyvesant	food
+277	BLACK + GOLD	Bushwick	food
+272	Junior High School 57 Whitelaw Reid	Bedford-Stuyvesant	food
+240	Robert L. Spivack, RPH	Fort Greene	food
+239	Mark Morris Dance Center	Fort Greene	food
+178	New York Families for Autistic Children	Ozone Park	store
+189	La Bagel Delight	Park Slope	food
+186	Dykes Lumber Co	Gowanus	food
+290	Brooklyn Brazilian Jiu-Jitsu	Clinton Hill	food
+211	Lucali	Carroll Gardens	food
+286	Central Parking	Downtown Brooklyn	food
+261	Central Parking	Downtown Brooklyn	food
+217	Chuko Ramen	Prospect Heights	food
+265	Green in BKLYN	Clinton Hill	food
+298	Mega Aid Pharmacy	Bushwick	food
+197	Interfaith Medical Center	Bedford-Stuyvesant	food
+295	J Chimerine Plumbing Heating	Bedford-Stuyvesant	food
+241	US Post Office	Clinton Hill	food
+182	Unified Court System Ny	Red Hook	food
+232	Doctor Charles R Drew Memorial Park	Jamaica	store
+270	Vin de Table	Bedford-Stuyvesant	food
+300	Rosario Pizza	Bushwick	food
+195	nyc custom furniture	Crown Heights	food
+271	Junior High School 57 Whitelaw Reid	Bedford-Stuyvesant	food
+193	Habonim Dror North America	Crown Heights	food
+151	Payment Alliance International, Inc.	South Ozone Park	lodging
+289	Chase Office Supply	None	food
+244	Dynaco	Bedford-Stuyvesant	food
+155	Malca Amit New York Inc	Jamaica	food
+214	Pacific Standard	Boerum Hill	food
+258	Long Island College Hospital: Morales Edbert MD	Cobble Hill	food
+225	Cacin & Multiservice Center Inc	Bedford-Stuyvesant	store
+255	Jamaica Public School 121	South Richmond Hill	food
+292	Brooklyn Doula -- Megan Davidson, PhD	Bedford-Stuyvesant	food
+221	GNC	Bedford-Stuyvesant	food
+196	nyc custom furniture	Crown Heights	food
+283	Starbucks	None	food
+299	EBC High School	Bushwick	food
+273	Peoples Department Store	Bedford-Stuyvesant	food
+236	Soula Shoes	Boerum Hill	food
+264	Green in BKLYN	Clinton Hill	food
+287	Central Parking	Downtown Brooklyn	food
+253	Albar Knitting Inc	Bushwick	store
+163	Grand Army Plaza	Prospect Heights	store
+245	Halsey Street Grill	Bedford-Stuyvesant	food
+184	Treats Truck Stop	Carroll Gardens	food
+194	Niahmah Fine Indian Cuisine	Crown Heights	food
+156	T Moriarty & Son Inc	Red Hook	store
+280	P.S. 55 Maure	Jamaica	food
+279	Key Food	Jamaica	food
+170	New York City-Health & Hospital	Crown Heights	food
+220	GNC	Bedford-Stuyvesant	food
+199	Empower Charter School	Crown Heights	food
+222	Abir	Bedford-Stuyvesant	food
+192	Habonim Dror North America	Crown Heights	food
+248	Grandchamps	Bedford-Stuyvesant	food
+169	Everything But The Baby	Crown Heights	food
+175	Dunkin' Donuts	Brownsville	store
+227	Tri State Truck Repair	Bedford-Stuyvesant	food
+256	Queens School for Career Development	Jamaica	store
+242	US Post Office	Clinton Hill	food
+269	Vin de Table	Bedford-Stuyvesant	food
+167	Niahmah Fine Indian Cuisine	Crown Heights	food
+190	DNY Natural Land	Park Slope	food
+203	Loreto School	Brownsville	store
+262	Nevins St	Downtown Brooklyn	food
+229	J's Jerk Hut	Bedford-Stuyvesant	food
+234	Lucali	Carroll Gardens	food
+183	Popular Printing	Red Hook	food
+247	Oaxaca Tacos	Bedford-Stuyvesant	food
+278	Chimi Mundo	Ozone Park	food
+263	Mark Morris Dance Center	Fort Greene	food
+267	Brooklyn Doula -- Megan Davidson, PhD	Bedford-Stuyvesant	food
+282	Dutchy Construction	Jamaica	store
+208	Crown Fried Chicken	South Ozone Park	food
+238	Mark Morris Dance Center	Fort Greene	food
+165	Subway	Crown Heights	food
+535	Pretzelmaker	Elmhurst	food
+417	GMZ Buyers	Briarwood	store
+528	NYC Wines & Liquors	Maspeth	store
+393	70 Greene Apartments	Colgate Center	food
+355	Jamaica Hospital Medical Center	Richmond Hill	food
+494	Aqua Vim Corporation	Maspeth	store
+313	Levitanus William	Dumbo	food
+450	Cupping Room Cafe	Lower Manhattan	food
+428	B & B International LLC	Lower Manhattan	food
+492	Arthnic	Greenpoint	store
+477	Chandelier master	Flushing	health
+498	Halal Kitchen Chinese Restaurant	Flushing	food
+442	Aged.	Forest Hills	food
+452	Café Habana	Lower Manhattan	food
+327	Mr Chen	Flushing	food
+539	CNS Rehabilitation Center	Forest Hills	food
+352	Lee Garden	Bushwick	food
+457	Graff	Midtown	store
+488	Captain Patrick J. Brown Walk	None	bus_station
+426	Café Habana	Lower Manhattan	food
+353	Sweet Jane's	Ridgewood	food
+365	Brooklyn Bridge	None	food
+301	Popeyes® Louisiana Kitchen	Bushwick	food
+499	Heaven's Deli	Middle Village	store
+386	Jimmy Jazz	Jamaica	food
+351	Fortunata's Pizza	Bushwick	food
+328	Mr Chen	Flushing	food
+522	Floating Hospital Inc: Yi Linda J	LIC	store
+332	King Chen Kitchen	Jamaica	food
+341	Uncommon Projects, LLC.	Dumbo	food
+315	Blue Heaven Hosiery Co Inc	Bedford-Stuyvesant	store
+422	Turbo Tech Nerds	The Waterfront	food
+456	26 Seats Bistro	Alphabet City	food
+459	El Born	Greenpoint	food
+397	Friendly Communications Verizon Wireless and FIOS Authorized Retailer	Lower Manhattan	food
+532	Queensboro Elks Lodge	Flushing	food
+363	holiday inn	Lower Manhattan	food
+475	Cohen & Cohen Law Group, P.C.	Forest Hills	food
+396	K&M Camera	Lower Manhattan	food
+356	Queens County Clerk	Jamaica	food
+479	Loradella's Family Pizzeria	Newport	food
+434	Loradella's Family Pizzeria	Newport	food
+391	Sky City Apartments at Grand	Van Vorst Park	food
+385	GMZ Buyers	Briarwood	food
+509	The Dubliner	None	food
+542	CVS Pharmacy	None	food
+403	VICE Media LLC	Williamsburg	store
+389	BP	Jamaica	store
+413	Easy Trader	Forest Hills	food
+402	A-1 Sofrim Inc	Lower Manhattan	store
+541	General Lumber True Value	None	food
+349	Tomo	East Williamsburg	food
+466	Halal Kitchen Chinese Restaurant	Flushing	food
+395	Battery Park City Authority	Lower Manhattan	food
+460	Lucky Luna	Greenpoint	food
+444	Wicklow Place LLC	Jamaica	store
+510	L'Artusi	Lower Manhattan	food
+482	West 4 St Station	Lower Manhattan	food
+354	German Kitchen Center	Jamaica	food
+370	FasTracKids	Williamsburg	food
+388	Jamaica Estates Medical Office: Jhaveri Sangam B MD	Jamaica	store
+473	M&T Bank	Forest Hills	food
+483	Black River Films	Lower Manhattan	food
+471	Juniper Wines	Rego Park	food
+344	P 141 K-PS 380 School	Williamsburg	food
+361	Battery Park City Authority	Lower Manhattan	food
+511	L'Artusi	Lower Manhattan	food
+514	Victoria's Secret	Midtown	food
+515	Gramercy Tavern	Midtown	food
+314	Chase Office Supply	None	store
+521	React Industries Inc	LIC	store
+485	Shabu-Tatsu	East Village	food
+432	Juliette Restaurant	Williamsburg	food
+377	Bruce Cost Ginger Ale Factory	East Williamsburg	food
+375	Grand Morelos	Williamsburg	food
+419	John's Pizzeria	Jamaica	store
+333	McDonald's	Jamaica	food
+433	Spritzenhaus	Greenpoint	food
+449	Sushi Azabu	Lower Manhattan	food
+537	National E-Payment	Rego Park	food
+502	Marshalls	Rego Park	food
+481	Popbar	Lower Manhattan	food
+445	Elena's Restaurant 43	Queens Village	store
+362	holiday inn	Lower Manhattan	food
+496	New York City Emergency	Flushing	store
+453	New York Adorned	Lower Manhattan	food
+543	The Hoboken Gourmet Company	None	food
+431	Northside Piers Tower 3	Williamsburg	store
+374	DocuPro	Williamsburg	food
+381	Middle Village Motors	Flushing	food
+340	Debo Programing	Dumbo	food
+519	Andro inc	Greenpoint	food
+546	Victoria's Secret	Midtown	store
+438	Maspeth Diner	Maspeth	food
+415	Haveli Indian Cuisine	Forest Hills	food
+324	Dromedary Bar	Bushwick	food
+527	Continental Truck Body Corporation	Flushing	store
+357	Queens County Clerk	Jamaica	food
+487	ReVision Lounge and Gallery	Lower Manhattan	food
+464	Amcon Contracting Corporation	Maspeth	food
+410	Etronics	East Williamsburg	store
+545	Marshalls	Midtown	food
+400	The Children's Place	Lower Manhattan	food
+524	Aqua Vim Corporation	Maspeth	store
+348	Moku Moku	East Williamsburg	food
+321	Eastlands	Bushwick	food
+437	Etronics	East Williamsburg	store
+436	Boneshakers	East Williamsburg	food
+476	Hispanic Foodways/ Lorena Drago MS RD CDN CDE	Forest Hills	health
+513	Party City	Lower Manhattan	food
+430	East Village Bed and Breakfast	Alphabet City	store
+334	HJH Restaurant Inc	Jamaica	food
+406	Juliette Restaurant	Williamsburg	food
+346	Christian Internet	Williamsburg	food
+364	Ambrose Beer and Lobster	Lower Manhattan	food
+421	THE WAREHOUSE CAFE	Downtown Jersey City	food
+358	The Law Offices Of Nicholas S. Dubrowsky, Esq.	Jamaica	store
+399	B & B International LLC	Lower Manhattan	food
+405	Juliette Restaurant	Williamsburg	food
+408	The Bottle Shoppe	Williamsburg	food
+372	Paul Smith Williamsburg	Williamsburg	food
+387	Queens Housing Authority	Jamaica	food
+323	Dromedary Bar	Bushwick	food
+319	Mr. Parador Restaurant	Bedford-Stuyvesant	food
+418	GMZ Buyers	Briarwood	store
+489	From the Source	Greenpoint	food
+310	Park movie	None	park
+382	Dr. Marianna Gertsberg, MD	Flushing	food
+478	Taco Bell	The Waterfront	store
+322	Fortunata's Pizza	Bushwick	food
+455	East Village Bed and Breakfast	Alphabet City	food
+500	Heaven's Deli	Middle Village	store
+308	Battery Gardens	Lower Manhattan	food
+486	Obscura Antiques & Oddities	East Village	food
+472	RMR Printing Graphic Studio & Digital Printing	Rego Park	food
+304	Villa Garden Famous Pizza	Jamaica	store
+416	Queens Environmental Control	Jamaica	food
+366	El Castillo De Madison	Lower Manhattan	health
+342	Williamsburg Collegiate Charter School	Williamsburg	store
+443	Haveli Indian Cuisine	Forest Hills	food
+329	WOODHAVEN LIQUORS	Glendale	store
+317	Keep On Printing Inc	Williamsburg	store
+538	CNS Rehabilitation Center	Forest Hills	food
+493	United Refrigeration	Flushing	store
+409	The Bottle Shoppe	Williamsburg	food
+394	Battery Park City Authority	Lower Manhattan	food
+497	New York City Emergency	Flushing	store
+373	DocuPro	Williamsburg	food
+424	Church Lounge	Lower Manhattan	food
+312	Front Street Pizza	Dumbo	food
+520	Andro inc	Greenpoint	food
+461	Arthnic	Greenpoint	food
+345	Christian Internet	Williamsburg	food
+404	Patrizia's of Brooklyn	Williamsburg	food
+407	Metropolitan	Williamsburg	food
+369	A-1 Sofrim Inc	Lower Manhattan	store
+307	Battery Gardens	Lower Manhattan	food
+401	Lower East Side Orthodontics	Lower Manhattan	store
+411	Etronics	East Williamsburg	store
+440	Aged.	Forest Hills	food
+544	Liberty Inn	Lower Manhattan	food
+454	Cafe Orlin	Lower Manhattan	food
+439	Dominick's Hot Dog Truck	Rego Park	store
+506	Casablanca Express Restaurant	The Waterfront	store
+540	Love & Relationships	Forest Hills	premise
+435	Boneshakers	East Williamsburg	food
+469	Middle Village Card	Flushing	store
+463	CityScapes Gentlemen's Club	Maspeth	store
+335	Battery Gardens	Lower Manhattan	food
+303	Bills Restaurant	Ridgewood	food
+384	New York City Criminal Justice	Jamaica	store
+306	Queens Environmental Control	Jamaica	food
+508	Hotel Victor Bar & Grill	None	food
+420	Jean Laurent Botanicals	Jamaica	store
+507	Hotel Victor Bar & Grill	None	food
+448	Magical Productions Entertainment Inc	Newport	store
+398	Friendly Communications Verizon Wireless and FIOS Authorized Retailer	Lower Manhattan	food
+501	Marshalls	Rego Park	food
+368	Letter of the Law Process Services	Lower Manhattan	store
+516	Dr. Jeffrey M. Spivak, MD	Midtown	food
+441	Aged.	Forest Hills	food
+474	Cohen & Cohen Law Group, P.C.	Forest Hills	food
+429	East Village Bed and Breakfast	Alphabet City	food
+495	Hergo Ergonomic Support Systems, Inc.	Maspeth	store
+390	Sky City Apartments at Grand	Van Vorst Park	food
+318	Park Stronghold	Bedford-Stuyvesant	health
+490	Pit Stop Bar	Greenpoint	food
+336	Aurora Deluxe B&B	Lower Manhattan	food
+523	Posterloid Corporation	LIC	store
+462	Arthnic	Greenpoint	store
+534	Hot Topic	Elmhurst	store
+504	Norman Bella DDS	Forest Hills	store
+330	Olivos Vision Center	Richmond Hill	food
+380	Windjammer Bar	Ridgewood	food
+470	Preferred Care PC	Middle Village	food
+367	El Castillo De Madison	Lower Manhattan	health
+447	Dunkin' Donuts	The Waterfront	food
+338	Ambrose Beer and Lobster	Lower Manhattan	food
+530	Urban Jungle	Woodside	store
+531	Queensboro Elks Lodge	Flushing	food
+316	Sunrise Photo	Williamsburg	store
+371	FasTracKids	Williamsburg	food
+359	Chicken Perfect	Jamaica	store
+339	Empire Fulton Ferry	Fulton Ferry District	food
+518	Gristede's Foods	Midtown	store
+350	Fortunata's Pizza	Bushwick	food
+379	Vali Industries Inc	East Williamsburg	food
+331	Jamaica Hospital Medical Center	Richmond Hill	health
+503	M&T Bank	Forest Hills	food
+467	Halal Kitchen Chinese Restaurant	Flushing	food
+484	Shabu-Tatsu	East Village	food
+536	LeFrak City	Corona	food
+320	Mr. Parador Restaurant	Bedford-Stuyvesant	food
+325	Dromedary Bar	Bushwick	food
+446	THE WAREHOUSE CAFE	Downtown Jersey City	food
+337	holiday inn	Lower Manhattan	food
+468	Middle Village Card	Flushing	store
+378	Bird's Eye Board Shop	East Williamsburg	store
+517	7-Eleven	Midtown	health
+525	A C Elevator Inc	Woodside	store
+423	J.Crew The Ludlow Shop at 50 Hudson	Lower Manhattan	food
+491	Religious Art Inc	Greenpoint	store
+383	Hangar 11 Bar & Restaurant	Kew Gardens	food
+343	Checkers	Williamsburg	food
+451	Dean & DeLuca	SoHo	food
+526	A C Elevator Inc	Woodside	store
+512	Party City	Lower Manhattan	food
+505	century ambulance service	Forest Hills	health
+425	Cupping Room Cafe	Lower Manhattan	food
+533	Tangra Masala	Flushing	store
+360	Cosi	The Waterfront	store
+392	Harborside Club	Exchange Place North	food
+326	Telco Stores	Ridgewood	food
+305	P.S. 55 Maure	Jamaica	store
+529	G & R Auto Services	Woodside	store
+480	Mr. Dennehy's	Greenwich Village	food
+311	Redbox	Brooklyn Heights	food
+427	Bluestockings	Lower Manhattan	food
+412	Dominick's Hot Dog Truck	Rego Park	store
+458	On-Time Printing	Greenpoint	food
+347	Walgreens	Williamsburg	food
+376	Grand Morelos	Williamsburg	food
+302	Hong Kong Express	Ridgewood	food
+414	Haveli Indian Cuisine	Forest Hills	food
+465	Dunkin' Donuts	Flushing	food
+309	Legg Mason Partners Fund Advsr	Lower Manhattan	store
+809	567 Chinese Asian Express	Upper Manhattan	store
+904	PEQUE Vinos + Tapas	Harlem	food
+766	Vaughn College Bookstore	Jackson Heights	store
+812	Mimi Restaurant	UWS	food
+708	Subway	East Elmhurst	store
+986	Jerome's Pizza & Pasta	West Bronx	food
+970	El Sinaloense	West Bronx	food
+551	Dung M. Duong, RPh	Midtown	health
+810	Schwarz Assessment Facility for the Homeless	Randalls Island	bus_station
+595	Lagcc Early Childhood Learning	LIC	store
+817	David Madison Horticultural	UES	food
+982	P.S. 121 Throop	East Bronx	store
+772	Épicerie Boulud	Lincoln Square	food
+945	Empanadas Monumental	Upper Manhattan	store
+782	The Young Women's Leadership School of Astoria	Astoria	food
+889	Dr. Jay E. Selman, MD / Selman Neurology PLLC	Harlem	food
+797	Yummy Sushi Japanese Restaurant	UES	food
+802	Empire Hotel Group	UWS	food
+720	810 Deli Inc	Midtown	food
+667	Polito's Pizza	Astoria	food
+871	XIME Deli & Pizza	West Bronx	food
+825	T.J. Maxx	UWS	food
+569	White Oak Elmhurst Condominium	Elmhurst	food
+637	Natalie Bar	Flushing	food
+774	Brunet	Central Park	food
+846	Metropolitan Compactor Services	Randalls Island	local_government_office
+968	Damian's nuts	Inwood	food
+643	Colombia Boutique	Corona	food
+723	Apple Store, Fifth Avenue	Midtown East	food
+962	Family Dollar	West Bronx	food
+874	Mi Mexico Lindo	West Bronx	store
+850	Verizon	UWS	food
+853	Les Ambassades	Upper Manhattan	food
+710	Gaucha Pizza	East Elmhurst	food
+605	Arsen Faylayev, PharmD	Elmhurst	health
+671	Surya Brasil	Woodside	store
+673	CVS Pharmacy	Jackson Heights	food
+734	Butcher Bar	Astoria	food
+694	Marvin Alexander Inc	UES	food
+969	Cigarette Plus	Upper Manhattan	store
+550	7-Eleven	Midtown	health
+763	Gullwing Motor Cars, Inc	Astoria	food
+680	Mt Horeb Baptist Church	Corona	food
+602	Natalie Bar	Flushing	food
+897	KFC	West Bronx	food
+926	Buonquillo LLC	Washington Heights	food
+619	Mr. Broadway Restaurant and Bar	Midtown	food
+847	Robert F Kennedy Bridge	Randalls Island	store
+787	Famous Brands	LIC	store
+794	Ristorante Morini	UES	food
+764	Petland Discounts - Ditmars	Ditmars Steinway	store
+971	Rent-A-Center	West Bronx	food
+922	Carmencita J. Tranquilino, RPH	West Bronx	food
+713	Five Star Sign	East Elmhurst	food
+938	Public School 11	West Bronx	store
+944	La Cubana	Upper Manhattan	food
+648	Di Lubio Asur Tavern	Mount Pleasant/Lower Broadway	store
+691	The Benjamin Hotel	Midtown	food
+910	Redbox	West Bronx	food
+735	Gullwing Motor Cars, Inc	Astoria	food
+592	Local Labels	LIC	food
+958	Ajinomoto North America Inc	None	food
+795	Fairway Market 86th Street	UES	food
+701	Dino's Pizza & Pasta	Astoria	food
+966	Castle Computers	Upper Manhattan	food
+860	Kennedy Fried Chicken	West Bronx	food
+760	Republic Astoria	Astoria	food
+811	Municipal Credit Union	Randalls Island	food
+832	Taqueria El Barrio	Upper Manhattan	food
+552	The Box House Hotel	Greenpoint	food
+584	buybuy BABY	Midtown	food
+663	Queensboro Plaza	LIC	food
+724	Scalinatella	UES	food
+660	Roosevelt Island	Roosevelt Island	store
+616	Bateaux New York	None	food
+983	Cafe Tabacco & Ron	Inwood	food
+992	Staples	West Bronx	food
+587	33 St	Midtown	food
+775	Fifth Avenue Apartments	UES	store
+575	Mount Hebron Cemetery	Flushing	general_contractor
+752	J.Crew Collection	UES	food
+693	Pig N Whistle on 3rd	Midtown	food
+711	Gaucha Pizza	East Elmhurst	food
+641	The Children's Place	Jackson Heights	food
+959	Apt NYC	Washington Heights	food
+568	Vivi bubble tea Elmhurst	Elmhurst	food
+984	Cafe Tabacco & Ron	Inwood	health
+640	Super Kickers Sport Corporation	Jackson Heights	food
+665	Ram's Alignment	LIC	food
+826	T.J. Maxx	UWS	food
+739	T-Mobile East Elmhurst	East Elmhurst	store
+750	Brunet	Central Park	store
+867	Chez Michelle NYC	Upper Manhattan	food
+697	3 Greeks Grill	LIC	store
+706	Sequins International	Flushing	store
+712	Tuxedo Rentals & Bridal	Corona	food
+725	Jackson Hole	UES	food
+975	Papasito Mexican Grill & Agave Bar	Inwood	food
+566	Woodside Kitchen	Flushing	food
+838	Verizon	UWS	food
+886	Mi Mexico Lindo	West Bronx	food
+571	Pollos a la brasa Don Alex	Flushing	food
+773	The Mandarin Treehouse	UWS	food
+688	Shake Shack	Midtown	food
+784	Home Comforts Bed and Bath	Astoria	food
+796	Gillen Brewer School	UES	food
+733	Butcher Bar	Astoria	food
+941	John Ugbogbo, RPH	West Bronx	health
+654	Midtown Comics Times Square	Midtown	food
+563	Woodside Pizza Restaurant	Woodside	store
+690	Le Bernardin	Midtown	food
+685	Fairline North Atlantic Marine	None	food
+951	181 Street Station	Upper Manhattan	food
+921	Well-Care Pharmacy	West Bronx	food
+638	Moon Lite International Inc	Flushing	food
+611	Westinghouse Time Capsules	Corona	premise
+682	Quest Diagnostics Queens-Flushing PSC	Flushing	food
+597	Burger King	Sunnyside	food
+887	Mi Mexico Lindo	West Bronx	food
+776	Wrap-N-Run Grill	UES	food
+676	Emily	Jackson Heights	food
+721	Le Bernardin	Midtown	food
+722	Apple Store, Fifth Avenue	Midtown East	food
+562	Woodside Pizza Restaurant	Woodside	store
+839	Liberated Fitness NYC	UWS	food
+942	Intrepid LLC	West Bronx	store
+559	Bar Rodeo	Sunnyside	food
+923	Carmencita J. Tranquilino, RPH	West Bronx	food
+814	Bella Luna	UWS	food
+746	Union Pojangmacha	Flushing	food
+844	Taqueria El Barrio	Upper Manhattan	food
+960	Yeshiva University	Upper Manhattan	food
+608	Rincon Criollo	North Corona	food
+664	Beija Flor	LIC	food
+726	Dunkin' Donuts	UES	food
+717	Weehawken Waterfront Park and Recreation Center	None	local_government_office
+754	Bar-Coastal	UES	food
+740	T-Mobile East Elmhurst	East Elmhurst	food
+883	KFC	West Bronx	food
+645	Pollo Campero	Corona	food
+808	Dunkin' Donuts	Upper Manhattan	food
+547	George Washington Hotel	Midtown	food
+607	White Oak Elmhurst Condominium	Elmhurst	food
+591	Local Labels	LIC	food
+930	Sheridan Academy for Young Leaders	West Bronx	food
+952	Alliance Parking	Upper Manhattan	food
+933	Thumbs Up Mini Market	Park Versailles	food
+670	Pacific Moon	Woodside	store
+736	Gullwing Motor Cars, Inc	Astoria	store
+954	La Rosa Food Center	West Bronx	store
+919	Mullaly Park	West Bronx	food
+677	Bambino's Pizzeria Inc	Flushing	food
+851	Crepes On Columbus	UWS	food
+824	308 W 94 St Apartments	UWS	food
+707	Subway	East Elmhurst	store
+928	C-Town Supermarkets	Upper Manhattan	food
+761	2401 Gourmet Deli Grocery	Astoria	food
+589	China Mission	Midtown	food
+699	Baring Industries	LIC	store
+852	The Cecil	Harlem	food
+956	Elena's Restaurant	West Bronx	food
+840	Lolita's	Upper Manhattan	food
+955	Jerome Drugs	West Bronx	food
+759	The Young Women's Leadership School of Astoria	Astoria	food
+863	St. Paul's Chapel	Upper Manhattan	food
+957	Point	Fordham Heights	food
+549	George Washington Hotel	Midtown	food
+949	Bravo Supermarkets	West Bronx	food
+939	Tower West	Mount Eden	food
+934	The Right Supplier	East Bronx	food
+649	McLoone's Pier House - Hoboken	None	store
+762	Cafe Via Espresso	Astoria	food
+684	Restaurant Associates	None	store
+620	33 St	Midtown	food
+633	Delicias Manabitas	LIC	store
+828	Roofing NYC	Upper Manhattan	store
+729	Connaught Group Ltd	LIC	store
+590	Landsman & Funk PC	Midtown	park
+732	Dino's Pizza & Pasta	Astoria	food
+572	Holiday Inn Express Laguardia Airport	Corona	store
+893	Brands Liquors	Upper Manhattan	food
+548	George Washington Hotel	Midtown	food
+894	Brands Liquors	Upper Manhattan	store
+777	Wrap-N-Run Grill	UES	food
+978	Cafe Tabacco & Ron	Inwood	food
+940	Medstop Pharmacy & Surgical Supplies	Mount Eden	food
+901	Shell	East Bronx	store
+862	Garden State Horse Sales Co	None	finance
+815	Duane Reade	UWS	food
+924	Circle Pizza	East Bronx	food
+877	LightHouse	Upper Manhattan	food
+882	Lincoln Medical & Mental Health: Hwang Caroline MD	Mott Haven	food
+786	Famous Brands	LIC	food
+666	Museum of the Moving Image	Astoria	food
+658	Gulluoglu Baklava Cafe Manhattan	Midtown	food
+856	Heritage House	Upper Manhattan	store
+909	Good Taste Chinese Restaurant	West Bronx	food
+662	Show Palace	LIC	store
+906	Starbucks	West Bronx	store
+963	Popeyes® Louisiana Kitchen	West Bronx	food
+778	Wrap-N-Run Grill	UES	food
+848	Rosenzweig Lumber Corporation	West Bronx	store
+829	Latin Fire Sports Bar	Upper Manhattan	food
+916	Home Security, Home security companies, Home security systems rating, VOIP Home	Hamilton Heights	food
+618	NY Pizza Suprema	Midtown	food
+881	Teddy's Place Auto Repair	West Bronx	store
+920	Crown Diner	Concourse	food
+857	RCH Carving Frames	West Bronx	store
+884	KFC	West Bronx	food
+577	Home Services at The Home Depot	None	store
+891	Sugar Hill Harlem Inn	Upper Manhattan	food
+822	Manhattan Psychiatric Center	Randalls Island	health
+864	Les Ambassades	Upper Manhattan	food
+780	Imperial Wines	UES	food
+626	Local Labels	LIC	store
+991	Cohen's Fashion Optical	West Bronx	health
+614	Anthony David's	None	food
+898	Casa de paloma	West Bronx	food
+635	Buttercups Paw-Tisserie	Woodside	store
+806	The UPS Store	Carnegie Hill	food
+747	Lunch Box	Midtown	food
+888	DBF Associate	West Bronx	food
+858	XIME Deli & Pizza	West Bronx	food
+560	Giovanni Pizza Restaurant	Woodside	food
+900	Latin American Chaplains Associates	West Bronx	food
+845	Taqueria El Barrio	Upper Manhattan	store
+878	Rose Seeds Juice Lounge	Harlem	food
+911	Arturo Schomburg Satellite Academy-Bronx	West Bronx	food
+961	Best Gourmet Deli & Grill	Upper Manhattan	food
+925	Juices For Life	East Bronx	food
+980	Three King	Jerome Park	food
+985	Peters VA Medical Center: Feinman Lawrence MD	West Bronx	health
+744	Dunkin' Donuts	East Elmhurst	store
+879	Subway	Upper Manhattan	food
+861	Johnstone Supply	Port Morris	store
+807	A & E Stores Inc	Upper Manhattan	food
+767	Stop 1 Grocery	East Elmhurst	food
+870	XIME Deli & Pizza	West Bronx	food
+799	PSI	Astoria	food
+756	Parents Association-PS 158	UES	store
+738	British Airways North America	Flushing	store
+989	Dubai Lounge	Jerome Park	food
+613	Anthony David's	None	food
+604	Arsen Faylayev, PharmD	Elmhurst	food
+890	Sugar Hill Harlem Inn	Upper Manhattan	food
+718	The Salvation Army	Midtown	food
+902	Sugar Hill Harlem Inn	Upper Manhattan	food
+617	NY Pizza Suprema	Midtown	food
+728	Connaught Group Ltd	LIC	store
+615	Local Barre Uptown | Core Fitness Classes	None	store
+896	KFC	West Bronx	food
+610	Pollos a la brasa Don Alex	Flushing	food
+981	Three King	Jerome Park	food
+979	Fordham Supply	West Bronx	food
+598	Subway	Sunnyside	food
+681	Best Western Plus LaGuardia Airport Hotel	Corona	food
+789	Gebhard's Beer Culture	Lincoln Square	food
+601	Woodside Pizza Restaurant	Woodside	food
+631	Ram's Alignment	LIC	store
+716	Quest Diagnostics Queens-Flushing PSC	Flushing	food
+567	Queensboro Elks Lodge	Flushing	food
+612	Center For Cardiac Surgery	Flushing	health
+593	Master Cabbie Taxi Academy	LIC	food
+908	CityView Diner Restaurant	West Bronx	food
+837	Verizon	UWS	food
+964	Walgreens	East Bronx	food
+988	Dubai Lounge	Jerome Park	food
+579	Anthony David's	None	food
+659	Riverhouse Realty Co Inc	Midtown	food
+899	Johnson BBQ	West Bronx	food
+855	Golden Krust Caribben Bakery & Grill	Upper Manhattan	food
+553	Tournesol	LIC	food
+678	Brisa Del Cibao	Flushing	food
+790	Empire Hotel Group	UWS	food
+609	EnergyPro Insulation	Flushing	food
+703	iGeekSquad Technical Support	Astoria	food
+873	Mi Mexico Lindo	West Bronx	food
+629	Queensboro Plaza	LIC	store
+791	Empire Hotel Group	UWS	food
+621	33 St	Midtown	food
+698	Sam Lee Kitchen	Astoria	food
+868	RCH Carving Frames	West Bronx	store
+833	Care One Home Medical Equipment	Upper Manhattan	food
+753	Wrap-N-Run Grill	UES	food
+661	Madame Paulette Corporate Headquarters	LIC	store
+687	Time Square News & Convenience	Midtown	food
+582	Liberty Inn	Lower Manhattan	food
+830	Domino's Pizza	Upper Manhattan	food
+892	Subway	Upper Manhattan	food
+689	Shake Shack	Midtown	food
+974	Chipotle Mexican Grill	West Bronx	food
+849	Johnstone Supply	Port Morris	store
+578	Harmony Pilates	None	food
+935	Game Stop	East Bronx	food
+936	Dr. Michael R. Bye, MD	Washington Heights	health
+709	Gup Studio Graphics	East Elmhurst	food
+674	La Perrada De Chalo	Jackson Heights	food
+967	Cachapas y Mas	Upper Manhattan	food
+831	Domino's Pizza	Upper Manhattan	food
+630	Queensboro Plaza	LIC	food
+742	Kantara Lounge	East Elmhurst	store
+801	Home Comforts Bed and Bath	Astoria	food
+603	Moon Lite International Inc	Flushing	food
+859	Fast Wok	West Bronx	food
+606	Arsen Faylayev, PharmD	Elmhurst	health
+905	Hishame Deli	Harlem	food
+599	Payag	Woodside	food
+977	Damian's nuts	Inwood	food
+823	John McEnroe Tennis Academy	Randalls Island	health
+748	Épicerie Boulud	Lincoln Square	food
+771	USANA Health Sciences Distributor	UWS	store
+918	Way To Life	West Bronx	store
+574	Willet family cemetery	Flushing	park
+625	Roosevelt Island	Roosevelt Island	food
+556	Lagcc Early Childhood Learning	LIC	store
+644	T-Mobile Jackson Heights	Jackson Heights	food
+715	New Shanghai Tan Restaurant	Flushing	food
+586	Hotel Stanford New York	Korea Town	food
+741	Kantara Lounge	East Elmhurst	food
+913	US Post Office	East Bronx	food
+657	The Benjamin Hotel	Midtown	food
+573	Westinghouse Time Capsules	Corona	health
+915	145 St	Upper Manhattan	food
+798	Glenwood - The Barclay Luxury Apartments	UES	health
+820	Domino's Pizza	Upper Manhattan	food
+627	Freed of London	LIC	food
+581	Liberty Inn	Lower Manhattan	food
+743	East Elmhurst Library	East Elmhurst	store
+588	CVS Pharmacy	Midtown	food
+972	Family Dollar	West Bronx	store
+869	RCH Carving Frames	West Bronx	store
+704	CVS Pharmacy	Woodside	food
+683	Quest Diagnostics Queens-Flushing PSC	Flushing	food
+885	Mexicocina	Mott Haven	food
+751	J.Crew Collection	UES	store
+652	Scallywag's Irish Pub	Midtown	food
+757	Bright Horizons at the Octagon	Roosevelt Island	store
+758	McDonald's	LIC	food
+755	Bar-Coastal	UES	food
+565	Tea Cup Cafe	Elmhurst	store
+880	Subway	Upper Manhattan	store
+947	Sanders Fred	West Bronx	health
+842	New Ivoire	Upper Manhattan	food
+700	Dino's Pizza & Pasta	Astoria	food
+557	Verterra Limited	LIC	food
+686	River 2 River Realty, Inc.	Midtown	food
+827	Scott Burko, RPh	UWS	store
+965	CenterLight Health System	East Bronx	store
+804	Tarallucci e Vino	UWS	food
+768	Hudson Booksellers	East Elmhurst	food
+793	Encore Consignment	UES	food
+843	Taco Bell	Upper Manhattan	food
+632	Home Deco Express	LIC	store
+561	Gritalo Studios	Woodside	store
+872	Fast Wok	West Bronx	food
+818	A & E Stores Inc	Upper Manhattan	food
+805	Gregory Jean F	UWS	health
+953	Burger King	Upper Manhattan	food
+679	El Fogon Costeno	Corona	food
+749	Bed Bath & Beyond	UWS	food
+841	Open Door Fellowship	Upper Manhattan	food
+800	Just Combo	LIC	store
+656	The Benjamin Hotel	Midtown	food
+655	Sofitel New York	Midtown	food
+865	American Apparel	Upper Manhattan	food
+623	Aroma Espresso Bar	Midtown East	food
+647	Anthony Furniture	Corona	store
+929	Eddie's Place African Market	West Bronx	food
+564	Ideas First Automotive	Maspeth	store
+669	Sushix and Lounge	LIC	food
+836	John McEnroe Tennis Academy	Randalls Island	health
+585	buybuy BABY	Midtown	food
+642	Staples	Jackson Heights	food
+580	Town House Shops	None	food
+745	Ditmars Bl/29 Av	East Elmhurst	food
+668	United Wholesale Jewelers Gold	LIC	food
+576	Queens Library at Queensboro Hill	Flushing	food
+730	Super 8 Long Island City LGA Hotel	LIC	food
+624	UN Stamps	Midtown	store
+727	Erica Allen, PharmD	UES	health
+903	Sugar Hill Harlem Inn	Upper Manhattan	food
+600	Adolfo's Wines & Liquors Store	Woodside	food
+819	Domino's Pizza	Upper Manhattan	food
+927	Taszo Espresso Bar	Washington Heights	food
+639	Ps69 Queens	Jackson Heights	food
+914	Kmart	East Bronx	store
+976	Damian's nuts	Inwood	food
+948	John Ugbogbo, RPH	West Bronx	health
+737	Furniture Design By Knossos	Flushing	store
+622	Aroma Espresso Bar	Midtown East	food
+813	308 W 94 St Apartments	UWS	food
+628	Queensboro Plaza	LIC	food
+875	El Nuevo Tina	Upper Manhattan	food
+583	buybuy BABY	Midtown	food
+554	Rollhaus Seating Products Inc	LIC	store
+932	Carmencita J. Tranquilino, RPH	West Bronx	food
+854	Mount Morris House Bed and Breakfast	Harlem	food
+783	City View Pharmacy	Astoria	food
+765	Vaughn College Bookstore	Jackson Heights	store
+803	Empire Hotel Group	UWS	food
+555	Mrs Soupy & Friends	LIC	store
+558	A M Unique Lion Con	Sunnyside	food
+973	Bronx-Lebanon Hospital Center	West Bronx	food
+912	Nicosia Hills Co	East Bronx	food
+866	My Room Nyc	None	food
+821	Zefi Mechanical	Upper Manhattan	food
+636	Natalie Bar	Flushing	food
+650	New York International Auto Show	Midtown	store
+835	John McEnroe Tennis Academy	Randalls Island	bus_station
+705	Sequins International	Flushing	store
+792	Delacorte Theater	Central Park	store
+779	Bar-Coastal	UES	food
+596	Lagcc Early Childhood Learning	LIC	food
+696	Marallo Ingles Inc	LIC	store
+788	Southwest Airlines	Flushing	store
+672	CVS Pharmacy	Jackson Heights	food
+990	Dubai Lounge	Jerome Park	food
+834	Wireless Advocates T-Mobile Authorized Dealer	Upper Manhattan	store
+950	Frank's Sports Shop	West Bronx	store
+781	Kondracke Andrea M MD	Astoria	health
+785	Home Comforts Bed and Bath	Astoria	food
+714	NY Led Sign Inc.	Corona	store
+692	The Benjamin Hotel	Midtown	food
+651	New York International Auto Show	Midtown	food
+876	Subway	Harlem	food
+675	La Perrada De Chalo	Jackson Heights	food
+907	Crown Diner	Concourse	store
+731	Dino's Pizza & Pasta	Astoria	food
+653	Shake Shack	Midtown	food
+931	Webster Tires & Wheels	West Bronx	food
+570	National Electronics Services	Corona	food
+917	Baskin Robbins	Upper Manhattan	food
+702	iGeekSquad Technical Support	Astoria	food
+719	US Post Office	Midtown	food
+695	Totoya Japanese Restaurant	UES	health
+946	Tower West	Mount Eden	food
+816	Dr. Marita S. Teng, MD	Upper Manhattan	health
+987	Cardtronics ATM	East Bronx	food
+769	LaGuardia Plaza Hotel	East Elmhurst	food
+646	P.S. 28 Thomas Emanuel Early Childhood Center	Corona	food
+943	Highbridge House	Upper Manhattan	health
+895	Mike's Restaurant	West Bronx	food
+770	Crust Pizza	East Elmhurst	food
+634	United Wholesale Jewelers Gold	LIC	food
+594	Lagcc Early Childhood Learning	LIC	store
+937	Highbridge House	Upper Manhattan	health
+108	Transamerica Airlines	None	food
+17	Time Imports	Mapleton	store
+89	Japan Airlines	Jamaica	store
+51	V.I.M.	Flatbush - Ditmas Park	food
+73	Port Authority of New York & New Jersey Police Department	None	store
+40	Crown Fried Chicken	Flatbush - Ditmas Park	food
+58	Paradie's Shops	Jamaica	store
+75	Upper Crust	Jamaica	food
+57	Port Authority of New York & New Jersey Police Department	None	food
+67	7-Eleven	None	food
+104	John Weigand Audiology PC	Brownsville	health
+26	Antepli Baklava	Bay Ridge	food
+122	Faith Hope & Charity Day Care	Brownsville	food
+148	101 St /157 Av	Old Howard Beach	transit_station
+123	Faith Hope & Charity Day Care	Brownsville	food
+95	Diocese Brooklyn	Greenwood	food
+124	New Lots Furniture	East New York	food
+32	Just Locs Organics	Flatlands	store
+25	Windy City Ale House	Bay Ridge	food
+4	Livingroom Steakhouse	Gravesend	food
+60	Auntie Anne's	Jamaica	food
+115	Notion Digital Arts, Inc.	Prospect Lefferts Gardens	food
+48	Anna Leyzerenok, PharmD	Kensington	food
+92	Twin Lin's Garden	Greenwood	food
+8	Mill Basin Bridge	None	premise
+135	R Steven Legall Funeral Services	Crown Heights	food
+29	Ashevitte Furniture	Midwood	food
+132	Nikibi Studio and Design	Park Slope	food
+20	Windy City Ale House	Bay Ridge	food
+85	Exclusive Furnishing Inc.	East Flatbush	food
+39	Brooklyn Premier Orthopedics	Flatbush - Ditmas Park	food
+117	Marie A. Valcourt, RPH	East Flatbush	health
+31	Brooklyn Plumbing & Heating Supply	Flatlands	store
+137	Clubs Gyro	Prospect Lefferts Gardens	food
+46	Baskin Robbins	Sunset Park	food
+28	Timothy S. Yu, PharmD	Kensington	store
+84	All About You	East Flatbush	food
+53	Taste of China	East Flatbush	food
+37	Ox Cart Tavern	Flatbush - Ditmas Park	food
+102	Hebrew Academy-Special Children	East Flatbush	store
+62	Pollo Campero	Sunset Park	food
+16	86 Noodles	Bay Ridge	food
+99	Marie A. Valcourt, RPH	East Flatbush	health
+36	Anna Leyzerenok, PharmD	Kensington	food
+90	Starbucks	None	food
+126	OROM RENT A CAR	Jamaica	car_rental
+125	New Lots Furniture	East New York	food
+114	Coop Design Studio	Prospect Lefferts Gardens	food
+79	Taqueria Restaurante Mi Barrio 2	Greenwood	food
+118	Virtual Images	None	store
+106	Ampco System Parking	Jamaica	car_rental
+78	Brooklyn Community Board Seven	Sunset Park	food
+150	Hilton Garden Inn Queens/JFK Airport	Jamaica	food
+56	Fast Repair Inc	East Flatbush	store
+69	Michelle's Cocktail Lounge	Flatbush - Ditmas Park	food
+138	Nadler Cabinet Services	Crown Heights	food
+93	Twin Lin's Garden	Greenwood	store
+7	Mirage Diner Restaurant	None	store
+23	G.I. Clean Products (sdvosb)	Midwood	food
+47	Keter Judaica	Borough Park	store
+82	Michelle's Cocktail Lounge	Flatbush - Ditmas Park	store
+76	Auntie Anne's	Jamaica	food
+86	Exclusive Furnishing Inc.	East Flatbush	store
+10	Neuroscience Associates-Ny: Suponya Anna MD	Bay Ridge	food
+143	Tony's Pizza	Brownsville	food
+44	Tony's Pizza	Brownsville	
+119	Drukartz Mark J DDS	East Flatbush	health
+144	Faith Hope & Charity Day Care	Brownsville	store
+45	Baskin Robbins	Sunset Park	food
+63	Pollo Campero	Sunset Park	food
+9	Sicilian Soccer & Billiards	Bensonhurst	food
+59	Panda Express	Jamaica	food
+74	AT&T Authorized Retailer	None	food
+30	Cypher Productions	Flatbush - Ditmas Park	store
+91	Sammy's Beach Bar & Grill	Jamaica	food
+49	Connecticut Muffin	Flatbush - Ditmas Park	food
+34	Elegante Pizzeria	Bay Ridge	food
+12	Kiiddie Styles	Dyker Heights	store
+100	Mavis Discount Tire	East Flatbush	food
+105	BP	East New York	store
+131	The Gallery Players	Park Slope	food
+83	Michelle's Cocktail Lounge	Flatbush - Ditmas Park	food
+64	MMSDREAMZ Inc.	Windsor Terrace	food
+18	Public School 99	Midwood	store
+136	R Steven Legall Funeral Services	Crown Heights	food
+11	Annabelle's Pastaria	Dyker Heights	store
+43	Cakes By Faith	East Flatbush	store
+24	Party City	Bergen Beach	store
+22	Kosher Bagel Hole	Midwood	food
+129	Arc Air Logistics	Jamaica	store
+128	148 St/147 Av	None	bus_station
+33	Aida's Spa	Bay Ridge	food
+94	Olma Xxi Inc	Greenwood	store
+142	Tony's Pizza	Brownsville	food
+50	Cortelyou Rd	Flatbush - Ditmas Park	food
+14	Simon Sez Not Just Pizza	Midwood	store
+113	The Tuscan Gun - Officine Alimentari	Windsor Terrace	food
+149	NY Crashpad	Jamaica	parking
+103	John Weigand Audiology PC	Brownsville	health
+80	MMSDREAMZ Inc.	Windsor Terrace	food
+146	Hyde Charter School Ii	East New York	food
+88	Singapore Airlines-Cargo	Jamaica	store
+96	10th Avenue Deli and Grocery Express	Windsor Terrace	food
+35	Central Brooklyn Medical Group: Donahue Bernadine MD	Sunset Park	food
+98	Play Kids	Prospect Lefferts Gardens	food
+112	Lesbian Herstory Archives	Park Slope	food
+61	Pandora JFK International Airport	Jamaica	airport
+116	Clubs Gyro	Prospect Lefferts Gardens	food
+70	Tantz	East Flatbush	food
+13	Simon Sez Not Just Pizza	Midwood	food
+5	June Florist	Bath Beach	food
+72	Port Authority of New York & New Jersey Police Department	None	health
+19	Glatt Mart Kosher Supermarket & Meat House	Midwood	food
+54	Taste of China	East Flatbush	food
+110	Joy Kitchen	Park Slope	food
+139	Brooklyn's Finest Pole Dancing Studio	Crown Heights	food
+55	Island Grill Cafe	East Flatbush	store
+134	Tracey Ashmeade, RPH	Park Slope	health
+41	Flatbush Copy Center	Flatbush - Ditmas Park	food
+97	McDonald's	None	food
+141	Affordable Sales	Crown Heights	food
+107	148 St/S Cargo Rd	None	food
+121	Sickle Cell Network	East Flatbush	food
+140	Brooklyn's Finest Pole Dancing Studio	Crown Heights	food
+147	Four Aces Restaurant Bakery	East New York	food
+87	Bling4Cars	East Flatbush	food
+52	Morris Manor Apartments	Flatbush - Ditmas Park	food
+71	Tantz	East Flatbush	food
+68	Michelle's Cocktail Lounge	Flatbush - Ditmas Park	food
+65	MMSDREAMZ Inc.	Windsor Terrace	food
+77	JetBlue Terminal 5	None	store
+3	Best & Stein	Belford	general_contractor
+81	PS 249 The Caton School	Flatbush - Ditmas Park	food
+111	Provini	Park Slope	food
+21	Hadassah Kupfer, AuD	Midwood	store
+109	Visualaz	Greenwood	food
+15	86 Noodles	Bay Ridge	food
+101	SIMONE'S JAMAICAN CUISINE, INC.	East Flatbush	food
+127	OROM RENT A CAR	Jamaica	car_rental
+6	BEST BUY AUTO LEASING LLC	Gravesend	food
+145	iZoom USA	Brownsville	food
+27	Timothy S. Yu, PharmD	Kensington	store
+42	Flatbush Copy Center	Flatbush - Ditmas Park	food
+120	Drukartz Mark J DDS	East Flatbush	health
+38	Brooklyn Premier Orthopedics	Flatbush - Ditmas Park	food
+130	Monsignors	Greenwood	food
+133	Dr. John N. Nguyen, MD	Park Slope	food
+66	7-Eleven	None	store

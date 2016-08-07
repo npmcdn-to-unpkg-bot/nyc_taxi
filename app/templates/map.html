@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New York City Taxi Data</title>
+  <link rel="stylesheet" type="text/css" href="https://bootswatch.com/darkly/bootstrap.min.css">
+  <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!--<script src="static/jquery-1.12.4.min.js"></script>-->
+  <style>
+      #mapid {height: 800px} 
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <p class="navbar-brand">NYC Taxi Data</p>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  </div>
+</nav>
+
+{% from "_formhelpers.html" import render_field %}
+
+<div class='container-fluid'>
+  <div class='row'>
+    
+  <div class="col-md-2"> 
+    Select Start Point <br> 
+    
+    {{ form.hidden_tag() }}
+
+     <br> {{ render_field(form.neighborhood, class_="form-control") }}
+     <br> {{ render_field(form.blocks, class_="form-control") }} 
+      
+
+    </div>
+  
+  <div class="col-md-10" id="mapid"></div>
+  </div>
+</div>
+
+
+</body>
+ <script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+<script>
+    var mymap = L.map('mapid').setView([40.7829, -73.9654], 12);
+
+    L.tileLayer('https://api.mapbox.com/styles/v1/dlin17/cirk21jpg0002gim26e51q0f9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZGxpbjE3IiwiYSI6ImNpcmsyMGxudzAwMnlmYm5icXlzYWsxd2IifQ.MUxIcntS8U8rRa41fbPo_Q', {
+        maxZoom: 18,
+        attribution: "© <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>"
+    }).addTo(mymap);
+
+    var markers = new L.FeatureGroup()
+
+    mymap.addLayer(markers)
+
+    $('#neighborhood').on("change", function() {
+      $('#blocks').empty();
+
+      var neighborhood_id = $("#neighborhood option:selected").val();
+
+      $.getJSON('get_blocks', {
+        neighborhood: neighborhood_id
+      }, function(data) {
+        var options = $('#blocks');
+        $.each(data, function(key, value) {
+          options.append($("<option />").val(key).text(value));
+        })
+      });
+
+    });
+
+    $('#blocks').on("change", function() {
+      var block_id = $("#blocks option:selected").val();
+      $.getJSON('map_api', {
+        block: block_id
+      }, function(data) {
+        var start = data.origin
+        var top10 = data.paths
+        var names = data.names
+        var destinations = data.destinations
+
+
+        var circle = L.circle(start, 200, {
+            color: 'red',
+            stroke: false,
+            fillColor: '#e6e6e6',
+            fillOpacity: 0.5
+        })
+        markers.clearLayers();
+        markers.addLayer(circle);
+        
+        mymap.fitBounds(top10)
+
+        for (i = 0; i < top10.length; i++) {
+          var info = names[i]
+          var marker = L.marker(destinations[i], {
+            title: info.name
+          }).bindPopup("<center><b>" + info.name + 
+                      "</b><br>Trips: " + info.trips + 
+                      "<br>Average Fare: " + info.avg_fare + 
+                      "<br>Average Time: " + info.avg_time);
+
+          var line = L.polyline(top10[i], {
+            color: '#375a7f',
+            opacity: 0.8
+          });
+
+          markers.addLayer(marker);
+          markers.addLayer(line);
+        }
+      })
+    });
+
+
+
+</script>
+</html>
