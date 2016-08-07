@@ -1,7 +1,6 @@
 from __future__ import division
 
 from flask import render_template, redirect, flash, request, jsonify, url_for
-from flask.ext.login import LoginManager, UserMixin, login_required, current_user, login_user, logout_user
 from app import app
 
 import json
