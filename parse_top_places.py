@@ -33,7 +33,7 @@ files = os.listdir(".")
 outf = open("pois.txt", "w", encoding='utf-8')
 
 for filename in files:
-    if filename.startswith("google"):
+    if filename.startswith("3-22"):
         with open(filename) as json_file:
             d = json.load(json_file)
 
@@ -65,4 +65,4 @@ for filename in files:
             #     name = fallback
             name = fallback
             outf.write('%s\t%s\t%s\t%s\n' %
-                       (place, name, neighborhood, poi_types.most_common_type()))
+                       (place, name, neighborhood, poi_types.vectorize(normalize=True)))

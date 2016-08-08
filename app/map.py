@@ -14,13 +14,15 @@ def parse_json(origin, r):
     output = json.loads(r.text)
     path = [origin]
     for step in output['routes'][0]['legs'][0]['steps']:
-        path.append(step['maneuver']['location'][::-1])
+        coords = step['end_location']
+        path.append((coords['lat'], coords['lng']))
     return path
 
 
 def get_path(origin, destinations):
-    urls = ['https://router.project-osrm.org/route/v1/driving/%s,%s;%s,%s?steps=true&overview=false&alternatives=false' % (
-        origin[1], origin[0], destination[1], destination[0]) for destination in destinations]
+    urls = ['https://maps.googleapis.com/maps/api/directions/json?origin=%s,%s&destination=%s,%s&key=AIzaSyCOXJJ7zN4y-t7z2Lc3CEkU5BW3WwkAefM' % (
+        origin[0], origin[1], destination[0], destination[1]) for destination in destinations]
+    print urls[0]
 
     rs = (grequests.get(u) for u in urls)
 
