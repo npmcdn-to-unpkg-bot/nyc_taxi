@@ -50,7 +50,7 @@ def map():
                 ON dropoff_block = b.block_id
                 join pois c on b.block_id = c.block_id
                 where pickup_block = %s
-                group by 1,2 order by 5 desc limit 10
+                group by 1,2,3,4 order by 5 desc limit 10
                 """ % block_id)
     results = curs.fetchall()
 
