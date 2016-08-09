@@ -85,7 +85,7 @@ def blocks():
 
 @app.route('/map_api', methods=['GET'])
 def map_api():
-    conn = sqlite3.connect('app/data/taxi.db')
+    conn = psycopg2.connect('dbname=taxi user=postgres')
     curs = conn.cursor()
 
     if request.method == 'GET':
@@ -100,7 +100,7 @@ def map_api():
                     ON dropoff_block = b.block_id
                     join pois c on b.block_id = c.block_id
                     where pickup_block = %s
-                    group by 1,2 order by 5 desc limit 10
+                    group by 1,2,3,4 order by 5 desc limit 10
                     """ % block_id)
 
         results = curs.fetchall()

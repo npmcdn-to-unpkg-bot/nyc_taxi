@@ -2,3 +2,4 @@ Flask==0.10.1
 Flask-WTF==0.11
 grequests==0.3.0
 psycopg2
+gunicorn
