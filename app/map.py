@@ -5,7 +5,7 @@ from app import app
 
 import json
 import grequests
-import sqlite3
+import psycopg2
 
 from .forms import QueryForm
 
@@ -31,7 +31,7 @@ def get_path(origin, destinations):
 
 @app.route('/map')
 def map():
-    conn = sqlite3.connect('app/data/taxi.db')
+    conn = psycopg2.connect('dbname=taxi user=postgres')
     curs = conn.cursor()
 
     block_id = 692
@@ -70,7 +70,7 @@ def map():
 
 @app.route('/get_blocks', methods=['GET'])
 def blocks():
-    conn = sqlite3.connect('app/data/taxi.db')
+    conn = psycopg2.connect('dbname=taxi user=postgres')
     curs = conn.cursor()
 
     if request.method == 'GET':
