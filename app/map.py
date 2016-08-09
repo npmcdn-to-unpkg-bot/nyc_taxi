@@ -35,23 +35,24 @@ def map():
     curs = conn.cursor()
 
     block_id = 692
-
-    origin = list(curs.execute(
-        "select latitude + 1/400, longitude + 1/400 from blocks where block_id = %s" % block_id).fetchone())
-
-    neighborhoods = [row for row in curs.execute(
-        "SELECT DISTINCT neighborhood, neighborhood FROM pois ORDER BY neighborhood").fetchall()]
+    curs.execute(
+        "select latitude + 1/400, longitude + 1/400 from blocks where block_id = %s" % block_id)
+    origin = list(curs.fetchone())
+    curs.execute(
+        "SELECT DISTINCT neighborhood, neighborhood FROM pois ORDER BY neighborhood")
+    neighborhoods = [row for row in curs.fetchall()]
     form = QueryForm()
     form.neighborhood.choices = neighborhoods
 
-    results = curs.execute("""
+    curs.execute("""
                 select latitude, longitude, name, neighborhood, sum(trips), sum(fares) / sum(trips), sum(length) / sum(trips)
                 from trips a join blocks b
                 ON dropoff_block = b.block_id
                 join pois c on b.block_id = c.block_id
                 where pickup_block = %s
                 group by 1,2 order by 5 desc limit 10
-                """ % block_id).fetchall()
+                """ % block_id)
+    results = curs.fetchall()
 
     destinations = [[x[0], x[1]] for x in results]
     names = [{"name": str("%s, %s" % (x[2], x[3])), "trips": x[4], "avg_fare": "$%.2f" % x[5], "avg_time": "%.1f mins" % x[6]}
@@ -76,7 +77,8 @@ def blocks():
     if request.method == 'GET':
         sql = "SELECT block_id, name FROM pois WHERE neighborhood = '%s'" % request.args.get(
             'neighborhood', '')
-        rows = [row for row in curs.execute(sql).fetchall()]
+        curs.execute(sql)
+        rows = [row for row in curs.fetchall()]
         print rows
     return jsonify(rows)
 
@@ -88,18 +90,20 @@ def map_api():
 
     if request.method == 'GET':
         block_id = request.args.get('block', '')
+        curs.execute(
+            "select latitude + 1/400, longitude + 1/400 from blocks where block_id = %s" % block_id)
+        origin = list(curs.fetchone())
 
-        origin = list(curs.execute(
-            "select latitude + 1/400, longitude + 1/400 from blocks where block_id = %s" % block_id).fetchone())
-
-        results = curs.execute("""
+        curs.execute("""
                     select latitude, longitude, name, neighborhood, sum(trips), sum(fares) / sum(trips), sum(length) / sum(trips)
                     from trips a join blocks b
                     ON dropoff_block = b.block_id
                     join pois c on b.block_id = c.block_id
                     where pickup_block = %s
                     group by 1,2 order by 5 desc limit 10
-                    """ % block_id).fetchall()
+                    """ % block_id)
+
+        results = curs.fetchall()
 
         destinations = [[x[0], x[1]] for x in results]
         names = [{"name": str("%s, %s" % (x[2], x[3])), "trips": x[4], "avg_fare": "$%.2f" % x[5], "avg_time": "%.1f mins" % x[6]}
