@@ -57,7 +57,6 @@ def map():
     destinations = [[x[0], x[1]] for x in results]
     names = [{"name": str("%s, %s" % (x[2], x[3])), "trips": x[4], "avg_fare": "$%.2f" % x[5], "avg_time": "%.1f mins" % x[6]}
              for x in results]
-    print names
 
     paths = get_path(origin, destinations)
     destinations = [x[-1] for x in paths]
@@ -95,7 +94,8 @@ def map_api():
         origin = list(curs.fetchone())
 
         curs.execute("""
-                    select latitude, longitude, name, neighborhood, sum(trips), sum(fares) / sum(trips), sum(length) / sum(trips)
+                    select latitude, longitude, name, neighborhood, sum(trips), 
+                    sum(fares) / sum(trips), sum(length) / sum(trips) / 60
                     from trips a join blocks b
                     ON dropoff_block = b.block_id
                     join pois c on b.block_id = c.block_id
@@ -111,8 +111,4 @@ def map_api():
 
         paths = get_path(origin, destinations)
         destinations = [x[-1] for x in paths]
-        print origin
-        print paths
-        print destinations
-        print names
         return jsonify(dict(origin=origin, paths=paths, destinations=destinations, names=names))
