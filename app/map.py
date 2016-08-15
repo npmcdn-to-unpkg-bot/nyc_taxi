@@ -7,6 +7,7 @@ import grequests
 import numpy as np
 import pandas as pd
 import psycopg2
+import redis
 from bokeh.charts import Bar, hplot, output_file, show
 from bokeh.plotting import figure
 from bokeh.charts.attributes import CatAttr, ColorAttr
@@ -60,54 +61,6 @@ def chart_theme(p):
 
 
 def savitzky_golay(y, window_size, order, deriv=0, rate=1):
-    r"""Smooth (and optionally differentiate) data with a Savitzky-Golay filter.
-    The Savitzky-Golay filter removes high frequency noise from data.
-    It has the advantage of preserving the original shape and
-    features of the signal better than other types of filtering
-    approaches, such as moving averages techniques.
-    Parameters
-    ----------
-    y : array_like, shape (N,)
-        the values of the time history of the signal.
-    window_size : int
-        the length of the window. Must be an odd integer number.
-    order : int
-        the order of the polynomial used in the filtering.
-        Must be less then `window_size` - 1.
-    deriv: int
-        the order of the derivative to compute (default = 0 means only smoothing)
-    Returns
-    -------
-    ys : ndarray, shape (N)
-        the smoothed signal (or it's n-th derivative).
-    Notes
-    -----
-    The Savitzky-Golay is a type of low-pass filter, particularly
-    suited for smoothing noisy data. The main idea behind this
-    approach is to make for each point a least-square fit with a
-    polynomial of high order over a odd-sized window centered at
-    the point.
-    Examples
-    --------
-    t = np.linspace(-4, 4, 500)
-    y = np.exp( -t**2 ) + np.random.normal(0, 0.05, t.shape)
-    ysg = savitzky_golay(y, window_size=31, order=4)
-    import matplotlib.pyplot as plt
-    plt.plot(t, y, label='Noisy signal')
-    plt.plot(t, np.exp(-t**2), 'k', lw=1.5, label='Original signal')
-    plt.plot(t, ysg, 'r', label='Filtered signal')
-    plt.legend()
-    plt.show()
-    References
-    ----------
-    .. [1] A. Savitzky, M. J. E. Golay, Smoothing and Differentiation of
-       Data by Simplified Least Squares Procedures. Analytical
-       Chemistry, 1964, 36 (8), pp 1627-1639.
-    .. [2] Numerical Recipes 3rd Edition: The Art of Scientific Computing
-       W.H. Press, S.A. Teukolsky, W.T. Vetterling, B.P. Flannery
-       Cambridge University Press ISBN-13: 9780521880688
-    """
-    import numpy as np
     from math import factorial
 
     try:
@@ -138,10 +91,6 @@ def map_page():
     conn = psycopg2.connect('dbname=taxi user=postgres')
     curs = conn.cursor()
 
-    block_id = 692
-    curs.execute(
-        "select latitude + 1/400, longitude + 1/400 from blocks where block_id = %s" % block_id)
-    origin = list(curs.fetchone())
     curs.execute(
         "SELECT DISTINCT neighborhood, neighborhood FROM pois ORDER BY neighborhood")
     neighborhoods = [row for row in curs.fetchall()]
@@ -179,84 +128,92 @@ def rg_gradient(start, end, point):
 def map_api():
     conn = psycopg2.connect('dbname=taxi user=postgres')
     curs = conn.cursor()
+    r = redis.StrictRedis()
 
     if request.method == 'GET':
-        block_id = request.args.get('block', 654)
-        curs.execute(
-            "select latitude + 1/400, longitude + 1/400 from blocks where block_id = %s" % block_id)
-        origin = list(curs.fetchone())
+        block_id = request.args.get('block', 514)
+        cached = r.get(block_id)
+        if cached:
+            return jsonify(eval(cached))
+        else:
+            curs.execute(
+                "select latitude + 1/400, longitude + 1/400 from blocks where block_id = %s" % block_id)
+            origin = list(curs.fetchone())
 
-        curs.execute("""
-                    select latitude, longitude, name, neighborhood, sum(trips) * 1.0 / 181, 
-                    sum(fares) / sum(trips), sum(length) / sum(trips) / 60
-                    from trips a join blocks b
-                    ON dropoff_block = b.block_id
-                    join pois c on b.block_id = c.block_id
-                    where pickup_block = %s and year = 2015
-                    group by 1,2,3,4 order by 5 desc limit 10
-                    """ % block_id)
+            curs.execute("""
+                        select latitude, longitude, name, neighborhood, sum(trips) * 1.0 / 181, 
+                        sum(fares) / sum(trips), sum(length) / sum(trips) / 60
+                        from trips a join blocks b
+                        ON dropoff_block = b.block_id
+                        join pois c on b.block_id = c.block_id
+                        where pickup_block = %s and year = 2015
+                        group by 1,2,3,4 order by 5 desc limit 10
+                        """ % block_id)
 
-        results = curs.fetchall()
+            results = curs.fetchall()
 
-        destinations = [[x[0], x[1]] for x in results]
-        names = [{"name": str("%s, %s" % (x[2], x[3])), "trips": "%.1f" % x[4], "avg_fare": "$%.2f" % x[5], "avg_time": "%.1f mins" % x[6]}
-                 for x in results]
+            destinations = [[x[0], x[1]] for x in results]
+            names = [{"name": str("%s, %s" % (x[2], x[3])), "trips": "%.1f" % x[4], "avg_fare": "$%.2f" % x[5], "avg_time": "%.1f mins" % x[6]}
+                     for x in results]
 
-        paths = get_path(origin, destinations)
-        destinations = [x[-1] for x in paths]
+            paths = get_path(origin, destinations)
+            destinations = [x[-1] for x in paths]
 
-        averages = [474.889564336372847, 5998.46586211914, 792.464691318635]
+            averages = [474.889564336372847,
+                        5998.46586211914, 792.464691318635]
 
-        curs.execute(
-            "select sum(trips) * 1.0 / 181, sum(fares) / sum(trips), sum(tips) / sum(trips) from trips_by_month where block_id = %s and date >= '2015-01-01'" % block_id)
-        trips, fares, tips = map(lambda x: float(x), curs.fetchone())
-        perc = trips / averages[0] * 100
-        color = rg_gradient(0, 200, perc)
+            curs.execute(
+                "select sum(trips) * 1.0 / 181, sum(fares) / sum(trips), sum(tips) / sum(trips) from trips_by_month where block_id = %s and date >= '2015-01-01'" % block_id)
+            trips, fares, tips = map(lambda x: float(x), curs.fetchone())
+            perc = trips / averages[0] * 100
+            color = rg_gradient(0, 200, perc)
 
-        info = """This block had on average <b>%.1f</b> trips per day in the first half of 2015. This is <font color="%s"><b >%.0f%%</b></font> more than the average block.
-                    <br><br>
-                    The average fare from this block is $%.2f with a tip of $%.2f""" % (
-            trips, color, perc, fares, tips)
+            info = """This block had on average <b>%.1f</b> trips per day in the first half of 2015. This is <font color="%s"><b >%.0f%%</b></font> more than the average block.
+                        <br><br>
+                        The average fare from this block is $%.2f with a tip of $%.2f""" % (
+                trips, color, perc, fares, tips)
 
-    curs.execute("""
-            select cast(hour as varchar) as hour, trips * 1.0 / sum(trips) over() percentage from (
-            select * from 
-            (select hour, trips from trips_by_hour where block_id = %s and hour > 5 order by 1) a
+            curs.execute("""
+                    select cast(hour as varchar) as hour, trips * 1.0 / sum(trips) over() percentage from (
+                    select * from 
+                    (select hour, trips from trips_by_hour where block_id = %s and hour > 5 order by 1) a
 
-            union all 
-            select * from 
-            (select hour, trips from trips_by_hour where block_id = %s and hour <= 5 order by 1) b) a
-            """ % (block_id, block_id))
+                    union all 
+                    select * from 
+                    (select hour, trips from trips_by_hour where block_id = %s and hour <= 5 order by 1) b) a
+                    """ % (block_id, block_id))
 
-    output = curs.fetchall()
-    conn.commit()
-    df = pd.DataFrame(output, columns=['Hour', 'Percentage'])
-    df['Percentage'] = df['Percentage'].astype(float)
+            output = curs.fetchall()
+            conn.commit()
+            df = pd.DataFrame(output, columns=['Hour', 'Percentage'])
+            df['Percentage'] = df['Percentage'].astype(float)
 
-    bar = Bar(df, label=CatAttr(columns=['Hour'], sort=False), values='Percentage',
-              title=None, width=500, legend=None, height=300, color='#375a7f')
+            bar = Bar(df, label=CatAttr(columns=['Hour'], sort=False), values='Percentage',
+                      title=None, width=500, legend=None, height=300, color='#375a7f')
 
-    bk = {}
+            bk = {}
 
-    bar = chart_theme(bar)
-    bar.yaxis.axis_label = 'Percentage of Trips'
-    bk['bar'] = "\n".join(reversed(components(bar)))
+            bar = chart_theme(bar)
+            bar.yaxis.axis_label = 'Percentage of Trips'
+            bk['bar'] = "\n".join(reversed(components(bar)))
 
-    curs.execute(
-        "select date, trips from trips_by_month where block_id = %s order by 1" % block_id)
-    output = curs.fetchall()
-    line_dates = np.array([x[0] for x in output])
-    line_trips = np.array([x[1] / 1000 for x in output])
+            curs.execute(
+                "select date, trips from trips_by_month where block_id = %s order by 1" % block_id)
+            output = curs.fetchall()
+            line_dates = np.array([x[0] for x in output])
+            line_trips = np.array([x[1] / 1000 for x in output])
 
-    p = figure(width=500, height=300, x_axis_type="datetime")
+            p = figure(width=500, height=300, x_axis_type="datetime")
 
-    p.scatter(line_dates, line_trips, color='#375a7f')
-    p.line(line_dates, savitzky_golay(
-        line_trips, 11, 3), color='#bbbbbb', line_width=3)
+            p.scatter(line_dates, line_trips, color='#375a7f')
+            p.line(line_dates, savitzky_golay(
+                line_trips, 11, 3), color='#bbbbbb', line_width=3)
 
-    p = chart_theme(p)
-    p.yaxis.axis_label = 'Number of trips (k)'
+            p = chart_theme(p)
+            p.yaxis.axis_label = 'Number of trips (k)'
 
-    bk['line'] = "\n".join(reversed(components(p)))
-
-    return jsonify(dict(origin=origin, paths=paths, destinations=destinations, names=names, info=info, bk=bk))
+            bk['line'] = "\n".join(reversed(components(p)))
+            results = dict(origin=origin, paths=paths,
+                           destinations=destinations, names=names, info=info, bk=bk)
+            r.set(block_id, results)
+            return jsonify(results)
