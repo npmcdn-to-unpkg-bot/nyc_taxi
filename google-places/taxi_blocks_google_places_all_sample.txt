@@ -1,0 +1,631 @@
+{
+  "151": {
+    "ChIJDR9KPx9nwokRbMPR3vj-ZVw": {
+      "dist": 0.371, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "physiotherapist", 
+        "health", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Sonia A. Miller, PT"
+    }, 
+    "ChIJz90sqB9nwokRFMOQ-dUbnx0": {
+      "dist": 0.321, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Amani Holdings Corp"
+    }, 
+    "ChIJPXHo8B9nwokR7DX-nFzjiAM": {
+      "dist": 0.442, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "car_rental", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "ACE Rent A Car", 
+      "opening_hours": [
+        "Monday: 8:00 AM \u2013 7:00 PM", 
+        "Tuesday: 8:00 AM \u2013 7:00 PM", 
+        "Wednesday: 8:00 AM \u2013 7:00 PM", 
+        "Thursday: 8:00 AM \u2013 8:00 PM", 
+        "Friday: 8:00 AM \u2013 8:00 PM", 
+        "Saturday: 7:00 AM \u2013 3:00 PM", 
+        "Sunday: 8:00 AM \u2013 3:00 PM"
+      ]
+    }, 
+    "ChIJXzr_7B9nwokRIENMrfJN6VY": {
+      "dist": 0.445, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "lodging", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Hilton New York JFK Airport"
+    }, 
+    "ChIJoTv_7B9nwokRpJgqPwpulUg": {
+      "dist": 0.324, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "car_rental", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Pam Rent A Car"
+    }, 
+    "lng": -73.799999999999997, 
+    "ChIJ89kXPR9nwokRcos07uBve4M": {
+      "dist": 0.214, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "lodging", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Crowne Plaza Jfk Airport New York City", 
+      "opening_hours": [
+        "Monday: Open 24 hours", 
+        "Tuesday: Open 24 hours", 
+        "Wednesday: Open 24 hours", 
+        "Thursday: Open 24 hours", 
+        "Friday: Open 24 hours", 
+        "Saturday: Open 24 hours", 
+        "Sunday: Open 24 hours"
+      ]
+    }, 
+    "ChIJ6--xBB9nwokRrHWf8i-_-N0": {
+      "dist": 0.279, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "store", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Angel Gift Shop"
+    }, 
+    "ChIJw_CsBB9nwokRV1ATWOkC0IY": {
+      "dist": 0.285, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "lodging", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Ramada Inn"
+    }, 
+    "ChIJ6Y7OBB9nwokRYzMsXMYujkk": {
+      "dist": 0.294, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "lodging", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "lexington inn"
+    }, 
+    "ChIJlw0KkB9nwokR0N_vcancSBU": {
+      "dist": 0.469, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "home_goods_store", 
+        "store", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Carrie & Marie's Custom Grtng"
+    }, 
+    "ChIJ6--xBB9nwokRCjahSChwI8M": {
+      "dist": 0.287, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "lodging", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Radisson Hotel JFK Airport"
+    }, 
+    "ChIJO5WxBB9nwokRlWX7qUAsXLo": {
+      "dist": 0.288, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "car_rental", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Hertz Rent A Car", 
+      "opening_hours": [
+        "Monday: 7:30 AM \u2013 6:00 PM", 
+        "Tuesday: 7:30 AM \u2013 6:00 PM", 
+        "Wednesday: 7:30 AM \u2013 6:00 PM", 
+        "Thursday: 7:30 AM \u2013 6:00 PM", 
+        "Friday: 7:30 AM \u2013 6:00 PM", 
+        "Saturday: 8:00 AM \u2013 1:00 PM", 
+        "Sunday: Closed"
+      ]
+    }, 
+    "ChIJ6--xBB9nwokR0CszU6qcOLI": {
+      "dist": 0.293, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "atm", 
+        "finance", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Payment Alliance International, Inc."
+    }, 
+    "ChIJXzr_7B9nwokR3MGH4XuoCf0": {
+      "dist": 0.485, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Metro Traffic Control"
+    }, 
+    "ChIJqzfB_BhnwokRlTb321Iq9J0": {
+      "dist": 0.402, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "lawyer", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Christiana Bridgewater Law Office"
+    }, 
+    "ChIJ6--xBB9nwokR66ybXkmibp4": {
+      "dist": 0.456, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "car_rental", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Action Car Rental", 
+      "opening_hours": [
+        "Monday: 8:00 AM \u2013 7:00 PM", 
+        "Tuesday: 8:00 AM \u2013 7:00 PM", 
+        "Wednesday: 8:00 AM \u2013 7:00 PM", 
+        "Thursday: 8:00 AM \u2013 7:00 PM", 
+        "Friday: 8:00 AM \u2013 7:00 PM", 
+        "Saturday: 7:30 AM \u2013 2:30 PM", 
+        "Sunday: 8:30 AM \u2013 3:00 PM"
+      ]
+    }, 
+    "lat": 40.664999999999999, 
+    "ChIJYR6mhxxnwokR4qZSI6Cn3E8": {
+      "dist": 0.307, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "store", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Weitnauer America Inc"
+    }, 
+    "ChIJ6--xBB9nwokRDV0Her4SH4E": {
+      "dist": 0.293, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "atm", 
+        "finance", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "ATM Express"
+    }, 
+    "ChIJ6--xBB9nwokRtv-oPM_ZD4E": {
+      "dist": 0.293, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "atm", 
+        "finance", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "ATM"
+    }, 
+    "ChIJCfKKMB9nwokRzSiCE4_sxb4": {
+      "dist": 0.332, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "New York Educational Services Team"
+    }, 
+    "ChIJqzfB_BhnwokRVkCrvkY3BOY": {
+      "dist": 0.402, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Onearb Realty Corporation"
+    }
+  }, 
+  "152": {
+    "ChIJOZsU299mwokRak2GJTNLHlk": {
+      "dist": 0.495, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "clothing_store", 
+        "store", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "allbargainstoressite.com", 
+      "opening_hours": [
+        "Monday: Open 24 hours", 
+        "Tuesday: Open 24 hours", 
+        "Wednesday: Open 24 hours", 
+        "Thursday: Open 24 hours", 
+        "Friday: Open 24 hours", 
+        "Saturday: Open 24 hours", 
+        "Sunday: Open 24 hours"
+      ]
+    }, 
+    "ChIJPdIkdOBmwokRCGKWrmBj86o": {
+      "dist": 0.418, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "shopping_mall", 
+        "health", 
+        "store", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Amway"
+    }, 
+    "ChIJn3dIO-BmwokRx73btKlDuZk": {
+      "dist": 0.265, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "lodging", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Courtyard New York JFK Airport", 
+      "opening_hours": [
+        "Monday: Open 24 hours", 
+        "Tuesday: Open 24 hours", 
+        "Wednesday: Open 24 hours", 
+        "Thursday: Open 24 hours", 
+        "Friday: Open 24 hours", 
+        "Saturday: Open 24 hours", 
+        "Sunday: Open 24 hours"
+      ]
+    }, 
+    "ChIJUUp3I-BmwokRhq0sc1VaUG4": {
+      "dist": 0.256, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "restaurant", 
+        "food", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "The Bistro \u2013 Eat. Drink. Connect.\u00ae", 
+      "opening_hours": [
+        "Monday: 6:00 \u2013 10:00 AM, 5:00 \u2013 10:00 PM", 
+        "Tuesday: 6:00 \u2013 10:00 AM, 5:00 \u2013 10:00 PM", 
+        "Wednesday: 6:00 \u2013 10:00 AM, 5:00 \u2013 10:00 PM", 
+        "Thursday: 6:00 \u2013 10:00 AM, 5:00 \u2013 10:00 PM", 
+        "Friday: 6:00 \u2013 10:00 AM, 5:00 \u2013 10:00 PM", 
+        "Saturday: 6:00 \u2013 11:00 AM, 5:00 \u2013 10:00 PM", 
+        "Sunday: 6:00 \u2013 11:00 AM, 5:00 \u2013 10:00 PM"
+      ]
+    }, 
+    "ChIJXzr_7B9nwokRIENMrfJN6VY": {
+      "dist": 0.269, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "lodging", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Hilton New York JFK Airport"
+    }, 
+    "ChIJoTv_7B9nwokRpJgqPwpulUg": {
+      "dist": 0.426, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "car_rental", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Pam Rent A Car"
+    }, 
+    "lng": -73.795000000000002, 
+    "ChIJ89kXPR9nwokRcos07uBve4M": {
+      "dist": 0.431, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "lodging", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Crowne Plaza Jfk Airport New York City", 
+      "opening_hours": [
+        "Monday: Open 24 hours", 
+        "Tuesday: Open 24 hours", 
+        "Wednesday: Open 24 hours", 
+        "Thursday: Open 24 hours", 
+        "Friday: Open 24 hours", 
+        "Saturday: Open 24 hours", 
+        "Sunday: Open 24 hours"
+      ]
+    }, 
+    "ChIJQ9l5QOJmwokRX8d4CiqsrjY": {
+      "dist": 0.339, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "gas_station", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Sunoco Gas Station"
+    }, 
+    "ChIJUUp3I-BmwokRiFrjbgp8bPI": {
+      "dist": 0.259, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "atm", 
+        "finance", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Cardtronics ATM"
+    }, 
+    "ChIJ_24S1-NmwokRqtSYIcEiC98": {
+      "dist": 0.289, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "convenience_store", 
+        "cafe", 
+        "restaurant", 
+        "food", 
+        "store", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "7-Eleven", 
+      "opening_hours": [
+        "Monday: Open 24 hours", 
+        "Tuesday: Open 24 hours", 
+        "Wednesday: Open 24 hours", 
+        "Thursday: Open 24 hours", 
+        "Friday: Open 24 hours", 
+        "Saturday: Open 24 hours", 
+        "Sunday: Open 24 hours"
+      ]
+    }, 
+    "ChIJi5pe3x9nwokR2pTa8hZw0_Y": {
+      "dist": 0.275, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "lodging", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Hampton Inn NY-JFK", 
+      "opening_hours": [
+        "Monday: Open 24 hours", 
+        "Tuesday: Open 24 hours", 
+        "Wednesday: Open 24 hours", 
+        "Thursday: Open 24 hours", 
+        "Friday: Open 24 hours", 
+        "Saturday: Open 24 hours", 
+        "Sunday: Open 24 hours"
+      ]
+    }, 
+    "ChIJ6--xBB9nwokRrHWf8i-_-N0": {
+      "dist": 0.386, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "store", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Angel Gift Shop"
+    }, 
+    "ChIJY2RsROJmwokRwPd6wMvgAxU": {
+      "dist": 0.368, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "hospital", 
+        "health", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Metro Urgent Medical Care of Queens", 
+      "opening_hours": [
+        "Monday: 8:00 AM \u2013 8:00 PM", 
+        "Tuesday: 8:00 AM \u2013 8:00 PM", 
+        "Wednesday: 8:00 AM \u2013 8:00 PM", 
+        "Thursday: 8:00 AM \u2013 8:00 PM", 
+        "Friday: 8:00 AM \u2013 8:00 PM", 
+        "Saturday: 9:00 AM \u2013 4:00 PM", 
+        "Sunday: 9:00 AM \u2013 4:00 PM"
+      ]
+    }, 
+    "ChIJw_CsBB9nwokRV1ATWOkC0IY": {
+      "dist": 0.392, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "lodging", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Ramada Inn"
+    }, 
+    "ChIJ6Y7OBB9nwokRYzMsXMYujkk": {
+      "dist": 0.397, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "lodging", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "lexington inn"
+    }, 
+    "ChIJwYgIFuJmwokRivMI7kyFIIc": {
+      "dist": 0.298, 
+      "neighborhood": null, 
+      "type": [
+        "gas_station", 
+        "food", 
+        "store", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "JFK Airport Travel Plaza", 
+      "opening_hours": [
+        "Monday: Open 24 hours", 
+        "Tuesday: Open 24 hours", 
+        "Wednesday: Open 24 hours", 
+        "Thursday: Open 24 hours", 
+        "Friday: Open 24 hours", 
+        "Saturday: Open 24 hours", 
+        "Sunday: Open 24 hours"
+      ]
+    }, 
+    "ChIJlw0KkB9nwokR0N_vcancSBU": {
+      "dist": 0.434, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "home_goods_store", 
+        "store", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Carrie & Marie's Custom Grtng"
+    }, 
+    "ChIJ6--xBB9nwokRCjahSChwI8M": {
+      "dist": 0.386, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "lodging", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Radisson Hotel JFK Airport"
+    }, 
+    "ChIJO5WxBB9nwokRlWX7qUAsXLo": {
+      "dist": 0.392, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "car_rental", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Hertz Rent A Car", 
+      "opening_hours": [
+        "Monday: 7:30 AM \u2013 6:00 PM", 
+        "Tuesday: 7:30 AM \u2013 6:00 PM", 
+        "Wednesday: 7:30 AM \u2013 6:00 PM", 
+        "Thursday: 7:30 AM \u2013 6:00 PM", 
+        "Friday: 7:30 AM \u2013 6:00 PM", 
+        "Saturday: 8:00 AM \u2013 1:00 PM", 
+        "Sunday: Closed"
+      ]
+    }, 
+    "ChIJ6--xBB9nwokR66ybXkmibp4": {
+      "dist": 0.279, 
+      "neighborhood": "South Ozone Park", 
+      "type": [
+        "car_rental", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Action Car Rental", 
+      "opening_hours": [
+        "Monday: 8:00 AM \u2013 7:00 PM", 
+        "Tuesday: 8:00 AM \u2013 7:00 PM", 
+        "Wednesday: 8:00 AM \u2013 7:00 PM", 
+        "Thursday: 8:00 AM \u2013 7:00 PM", 
+        "Friday: 8:00 AM \u2013 7:00 PM", 
+        "Saturday: 7:30 AM \u2013 2:30 PM", 
+        "Sunday: 8:30 AM \u2013 3:00 PM"
+      ]
+    }, 
+    "ChIJpaHSMeJmwokRXKLWB4tEVlY": {
+      "dist": 0.31, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "restaurant", 
+        "food", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Qdoba", 
+      "opening_hours": [
+        "Monday: Open 24 hours", 
+        "Tuesday: Open 24 hours", 
+        "Wednesday: 12:00 AM \u2013 10:00 PM", 
+        "Thursday: Closed", 
+        "Friday: 10:00 AM \u2013 12:00 AM", 
+        "Saturday: Open 24 hours", 
+        "Sunday: Open 24 hours"
+      ]
+    }, 
+    "lat": 40.664999999999999, 
+    "ChIJPXHo8B9nwokR7DX-nFzjiAM": {
+      "dist": 0.276, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "car_rental", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "ACE Rent A Car", 
+      "opening_hours": [
+        "Monday: 8:00 AM \u2013 7:00 PM", 
+        "Tuesday: 8:00 AM \u2013 7:00 PM", 
+        "Wednesday: 8:00 AM \u2013 7:00 PM", 
+        "Thursday: 8:00 AM \u2013 8:00 PM", 
+        "Friday: 8:00 AM \u2013 8:00 PM", 
+        "Saturday: 7:00 AM \u2013 3:00 PM", 
+        "Sunday: 8:00 AM \u2013 3:00 PM"
+      ]
+    }, 
+    "ChIJCyboMeJmwokRkm20sKYmF9I": {
+      "dist": 0.317, 
+      "neighborhood": null, 
+      "type": [
+        "meal_takeaway", 
+        "restaurant", 
+        "food", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Max's Pizzeria"
+    }, 
+    "ChIJ0_zZLeJmwokRk_7U2Wg9KfI": {
+      "dist": 0.313, 
+      "neighborhood": "Jamaica", 
+      "type": [
+        "restaurant", 
+        "food", 
+        "point_of_interest", 
+        "establishment"
+      ], 
+      "name": "Wendy's", 
+      "opening_hours": [
+        "Monday: Open 24 hours", 
+        "Tuesday: Open 24 hours", 
+        "Wednesday: Open 24 hours", 
+        "Thursday: Open 24 hours", 
+        "Friday: Open 24 hours", 
+        "Saturday: Open 24 hours", 
+        "Sunday: Open 24 hours"
+      ]
+    }
+  }
+}
