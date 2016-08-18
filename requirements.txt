@@ -7,3 +7,6 @@ pandas
 bokeh
 colour
 redis
+json
+python-google-places
+python-forecastio
